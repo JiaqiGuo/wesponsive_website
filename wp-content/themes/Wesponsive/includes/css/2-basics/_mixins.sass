@@ -1,0 +1,18 @@
+=clearfix
+  overflow: hidden
+  &::after
+    content: ""
+    display: table
+    clear: both
+
+=mobile
+  @media screen and (max-width: 768px)
+    @content
+=small_mobile
+  @media screen and (max-width: 420px)
+    @content
+=tablet
+  @media screen and (max-width: 1024px)
+    @content
+#contact-us-popup
+  display: none

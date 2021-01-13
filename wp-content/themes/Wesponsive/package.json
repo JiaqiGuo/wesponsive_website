@@ -1,0 +1,23 @@
+{
+  "name": "JackyGulp",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "author": "Jacky Guo",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp": "^4.0.2",
+    "gulp-coffee": "^3.0.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "es6-promise": "^4.2.8",
+    "graceful-fs": "^4.2.3",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-uglify": "^3.0.2",
+    "node-sass": "^4.14.1"
+  }
+}
